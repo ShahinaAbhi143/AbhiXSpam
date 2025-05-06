@@ -17,7 +17,7 @@ async def _callbacks(Badmunda: Client, callback_query: CallbackQuery):
             await Badmunda.edit_message_text(
                 chat_id=chat_id,
                 message_id=message_id,
-                text="🚬 ʜᴇʟᴘ ᴍᴇɴᴜ 🚬\n\n   Powered By @PBX_PERMOT",
+                text="🚬 ʜᴇʟᴘ ᴍᴇɴᴜ 🚬\n\n   Powered By @ceo_of_secularism",
                 reply_markup=InlineKeyboardMarkup(Data.HELP_MENU1),
             )
     elif query == "close":
@@ -26,7 +26,7 @@ async def _callbacks(Badmunda: Client, callback_query: CallbackQuery):
         await Badmunda.edit_message_text(
             chat_id=chat_id,
             message_id=message_id,
-            text="ʜᴇʟᴘ ᴍᴇɴᴜ ʜᴀs ʙᴇᴇɴ ᴄʟᴏsᴇᴅ \n\n          © @PBX_PERMOT",
+            text="ʜᴇʟᴘ ᴍᴇɴᴜ ʜᴀs ʙᴇᴇɴ ᴄʟᴏsᴇᴅ \n\n          © @imagine_iq",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.REVERT),
         )
@@ -94,7 +94,7 @@ async def _callbacks(Badmunda: Client, callback_query: CallbackQuery):
         await Badmunda.edit_message_text(
             chat_id=chat_id,
             message_id=message_id,
-            text="ʜᴇʟᴘ ᴍᴇɴᴜ ᴘᴏᴡᴇʀᴇᴅ ʙʏ  @PBX_PERMOT",
+            text="ʜᴇʟᴘ ᴍᴇɴᴜ ᴘᴏᴡᴇʀᴇᴅ ʙʏ  @imagine_iq",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.HELP_MENU2),
         )
@@ -104,7 +104,7 @@ async def _callbacks(Badmunda: Client, callback_query: CallbackQuery):
         await Badmunda.edit_message_text(
             chat_id=chat_id,
             message_id=message_id,
-            text="ʜᴇʟᴘ ᴍᴇɴᴜ ᴘᴏᴡᴇʀᴇᴅ ʙʏ  @PBX_PERMOT",
+            text="ʜᴇʟᴘ ᴍᴇɴᴜ ᴘᴏᴡᴇʀᴇᴅ ʙʏ  @imagine_iq",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.HELP_MENU3),
       )

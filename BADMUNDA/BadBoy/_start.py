@@ -33,7 +33,7 @@ async def _start(Badmunda: Client, message: Message):
                     message.chat.id,
                     START_PIC,
                     caption=START_MESSAGE,
-                    reply_markup=InlineKeyboardMarkup(await start_cmd(ceo_of_secularism)),
+                    reply_markup=InlineKeyboardMarkup(await start_cmd(Badmunda)),
                 )
     elif ".mp4" in START_PIC.lower():
         for i in range(1, 26):
@@ -43,7 +43,7 @@ async def _start(Badmunda: Client, message: Message):
                     message.chat.id,
                     START_PIC,
                     caption=START_MESSAGE,
-                    reply_markup=InlineKeyboardMarkup(await start_cmd(ceo_of_secularism)),
+                    reply_markup=InlineKeyboardMarkup(await start_cmd(Badmunda)),
                 )
     else:
         for i in range(1, 26):
@@ -52,5 +52,5 @@ async def _start(Badmunda: Client, message: Message):
                 await lol.send_message(
                     message.chat.id,
                     START_MESSAGE,
-                    reply_markup=InlineKeyboardMarkup(await start_cmd(ceo_of_secularism)),
+                    reply_markup=InlineKeyboardMarkup(await start_cmd(Badmunda)),
                 )

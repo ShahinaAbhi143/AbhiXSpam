@@ -1,0 +1,7 @@
+abuse = [
+    "MADARCHOD",
+]
+
+galia == [
+    "MADARCHOD",
+]
